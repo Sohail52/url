@@ -39,14 +39,15 @@ This is a full-stack URL shortener built with **React** on the frontend and **Sp
 ## 📁 Project Structure
 
 url/
-├── backend/ # Spring Boot backend
-│ ├── src/
-│ ├── pom.xml
-│ └── ...
-├── frontend/ # React frontend
-│ ├── src/
-│ ├── package.json
-│ └── ...
+├── backend/               # Spring Boot backend
+│   ├── src/
+│   ├── pom.xml
+│   └── ...
+├── frontend/              # React frontend
+│   ├── src/
+│   ├── package.json
+│   └── ...
 └── README.md
+
 
 
