@@ -50,5 +50,50 @@ url/
 └── README.md
 ```
 
+---
 
+## 🚦 API Endpoints
+
+| Method | Endpoint         | Description                |
+| ------ | ---------------- | -------------------------- |
+| POST   | `/shorten`       | Create a short URL         |
+| GET    | `/{shortKey}`    | Redirect to original URL   |
+
+**Example:**
+
+```
+POST /shorten
+{
+"longUrl": "https://example.com/very/long/link"
+}
+
+Response:
+{
+"shortKey": "abc123",
+"shortUrl": "https://<api-url>/abc123"
+}
+```
+
+---
+
+## 💡 Setup Instructions
+
+### 🔧 Backend
+
+```
+cd backend
+./mvnw spring-boot:run
+```
+
+
+- Configure DynamoDB or use local H2 for testing  
+- Set CORS if calling backend from frontend  
+
+### ⚛️ Frontend
+
+```
+cd frontend
+npm install
+npm start
+```
 
