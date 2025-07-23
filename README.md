@@ -37,7 +37,7 @@ This is a full-stack URL shortener built with **React** on the frontend and **Sp
 ---
 
 ## 📁 Project Structure
-
+```
 url/
 ├── backend/               # Spring Boot backend
 │   ├── src/
@@ -48,6 +48,7 @@ url/
 │   ├── package.json
 │   └── ...
 └── README.md
+```
 
 
 
