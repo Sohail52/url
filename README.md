@@ -1,4 +1,4 @@
-# 🔗 URL Shortener
+# 🔗 Scalable URL Shortener
 
 Transform your long URLs into short, powerful links with analytics-friendly capabilities.  
 This is a full-stack URL shortener built with **React** on the frontend and **Spring Boot** on the backend, integrated with **AWS services** for scalability and performance.
